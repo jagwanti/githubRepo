@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MyApplication</string>
+    <string name="error_msg">Something went wrong</string>
+    <string name="pull_requests">Pull Requests</string>
+    <string name="owned_by">Owned by %s</string>
+    <string name="created_time">Created at %s</string>
+    <string name="closed_time">Closed at %s</string>
 </resources>
