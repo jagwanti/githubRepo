@@ -23,8 +23,8 @@ class MainViewModel @Inject constructor(val repository: MainRepository,val netwo
         }
 
 
-    var userName = "jagwanti"
-    var repoName= "jagwanti"
+    var userName = ""
+    var repoName= ""
 
     private var _repoResponse = MutableLiveData<List<Repo>>()
     var repoPullReqResponse:LiveData<List<Repo>> = _repoResponse

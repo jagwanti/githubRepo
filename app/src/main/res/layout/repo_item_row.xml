@@ -9,13 +9,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:padding="@dimen/dimen_20dp">
 
         <ImageView
             android:id="@+id/user_iv"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginRight="20dp"
+            android:layout_width="@dimen/dimen_48dp"
+            android:layout_height="@dimen/dimen_48dp"
+            android:layout_marginRight="@dimen/dimen_20dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintTop_toTopOf="parent"/>
 
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@+id/user_iv"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="@dimen/dimen_20dp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Github repo" />
